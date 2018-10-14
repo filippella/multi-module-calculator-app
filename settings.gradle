@@ -1,0 +1,7 @@
+include ':app',
+        ':calculator-sdk',
+        ':library-addition',
+        ':library-division',
+        ':library-multiplication',
+        ':library-subtraction',
+        ':library-sdk-base'

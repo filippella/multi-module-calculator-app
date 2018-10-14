@@ -1,0 +1,10 @@
+description = "Dalol Calculator Android SDK"
+
+apply from: "../group-build.gradle"
+
+dependencies {
+    api project(':library-addition')
+    api project(':library-division')
+    api project(':library-multiplication')
+    api project(':library-subtraction')
+}

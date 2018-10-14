@@ -1,0 +1,7 @@
+description = "Dalol Calculator Android SDK multiplication plugin"
+
+apply from: "../group-build.gradle"
+
+dependencies {
+    api project(':library-sdk-base')
+}
